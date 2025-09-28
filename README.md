@@ -6,12 +6,12 @@ Each project will be documented in GitHub (code + README + screenshots).
 
 ## Phase 1: Foundation & Resume Repositioning (0–3 months)
 
-### Project 1: Linux Health Check Script
-- Write a Bash or Python script to monitor CPU, RAM, disk, and key logs.  
+### Project 1: Linux Health Check Service
+- Write a minimal go program to monitor CPU, RAM, disk, and key logs.  
 - Configure logging and alerting (stdout + file).  
 
 ### Project 2: Custom systemd Unit
-- Create a systemd service that runs your script.  
+- Create a systemd service that runs the healthcheck program.  
 - Enable auto-start on boot and test with `systemctl` and `journalctl`.  
 
 ### Project 3: HAProxy Load Balancer
