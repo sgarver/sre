@@ -1,0 +1,13 @@
+[Unit]
+Description=Health Check Monitoring Script (Go)
+After=network.target
+
+[Service]
+User=stephen
+Group=adm
+WorkingDirectory=/home/stephen/code/sre
+ExecStart=/home/stephen/code/sre/healthcheck
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
