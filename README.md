@@ -1,6 +1,5 @@
-# 🛠 SRE Transition Projects (Phase-by-Phase)
+# 🛠 Site Reliability Engineering (SRE) Projects (Phase-by-Phase)
 
-This document lists all hands-on projects to complete during the SRE learning path.  
 Each project will be documented in GitHub (code + README + screenshots).  
 
 ---
