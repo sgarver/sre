@@ -4,7 +4,7 @@ Each project will be documented in GitHub (code + README + screenshots).
 
 ---
 
-## Phase 1: Foundation & Resume Repositioning (0–3 months)
+## Phase 1: Foundation (0–3 months)
 
 ### Project 1: Linux Health Check Service
 - Write a minimal go program to monitor CPU, RAM, disk, and key logs.  
